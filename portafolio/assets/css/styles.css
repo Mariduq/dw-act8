@@ -1,0 +1,155 @@
+html, body{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+}
+
+nav, footer {
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(126, 33, 118) !important;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+#text1 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#arte img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 1er Parallax*/
+#parallax1 h5 {
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+}
+
+#parallax1 h1 {
+    color: #ffffff;
+    font-size: 80pt;
+    font-family: 'Playfair Display', Times, serif;
+}
+
+#parallax1 img{
+    filter: brightness(0.7);
+}
+
+/* Iconos */
+.icon-block {
+    padding: 0 20px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+
+#contact button{
+    background-color: rgb(54, 14, 107);
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    text-align: justify;
+}
+
+.portfolio .col
+{
+	margin-bottom: 0px;
+}
+
+.portfolio h4
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h5
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+.portfolio h6
+{
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.portfolio hr
+{
+	width: 40px;
+	margin-bottom: 45px;
+}
+
+.portfolio .portfolio-holder
+{
+	clear: both;
+	text-align: center;
+}
+
+.portfolio img
+{
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+#contact {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+#contact button{
+    display: table;
+    margin: 0 auto;
+}
+
+/* label color */
+.input-field label {
+    color: rgb(14, 18, 73);
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: rgb(14, 18, 73);
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(14, 18, 73);
+    box-shadow: 0 1px 0 0 rgb(14, 18, 73);
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid rgb(14, 18, 73);
+    box-shadow: 0 1px 0 0 rgb(14, 18, 73);
+}
+  /* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid rgb(14, 18, 73);
+    box-shadow: 0 1px 0 0 rgb(14, 18, 73);
+}
+  /* icon prefix focus color */
+.input-field .prefix.active {
+    color: rgb(14, 18, 73);
+}
+
+/* label focus color */
+.input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
+    color: rgb(14, 18, 73) !important;
+  }
+/* label underline focus color */
+.row .input-field input:focus, .materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid rgb(14, 18, 73) !important;
+    box-shadow: 0 1px 0 0 rgb(14, 18, 73) !important
+  }
